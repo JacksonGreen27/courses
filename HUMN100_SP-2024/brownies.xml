@@ -23,12 +23,12 @@
             <head>INGREDIENTS</head>
 
          <list><item cert="high" n="4" xml:space="default"><objectName>4 oz (1 box) unsweetened chocolate</objectName></item>         
-         <item cert="high" n="2.666" xml:space="default">⅔ cup butter</item>
-         <item cert="high" n="1.33" xml:space="default">1 ⅓ cup all purpose flour</item>         
-         <item>1 teaspoon baking powder</item>         
-         <item>½ teaspoon salt</item>         
-         <item>4 eggs</item>         
-         <item>2 cups white sugar</item>         
+         <item cert="high" n="2.666" xml:space="default"><objectName>⅔ cup butter</objectName></item>
+         <item cert="high" n="1.33" xml:space="default"><objectName>1 ⅓ cup all purpose flour</objectName></item>         
+         <item>1 teaspoon <objectName>baking powder</objectName></item>         
+         <item>½ teaspoon <objectName>salt</objectName></item>         
+         <item>4 <objectName>eggs</objectName></item>         
+         <item>2 cups <objectName>white sugar</objectName></item>         
          <item>2 teaspoon vanilla</item></list>
          </div>
          
