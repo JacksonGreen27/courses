@@ -17,76 +17,27 @@
          <div>
             <listPerson>
                <person>
-                  <persName>NAME2</persName><birth><date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Nikita Bityutskiy </persName><birth><date>10/09/2003</date> <placeName>Tashkent, Uzbekistan</placeName> Computer Science &amp; Engineering, American Politics, Men's Swim and Dive</birth></person></listPerson><p>Wanted to play baseball but screwed up his shoulder</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME3</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Zach Blumenfeld</persName> <birth><date>02/02/2005</date> <placeName>Doylestown, PA</placeName> Computer Science &amp; Engineering, </birth></person></listPerson><p>Left Handed</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME4</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <listRelation>
-               <relation name="#dkj004">
-                  <desc/>
-               </relation>
-            </listRelation>
-            <p>FUN FACT</p>
+                  <persName>Miguel Camacho</persName> <birth><date>12/13/2002</date> <placeName>Bogota, Colombia</placeName> Creative Writing, Comparative &amp; Digital Humanities, Rock Climbing, CW club, Film club, LACOS, Cooking club, Arts Merit Scholar</birth></person></listPerson><p>Was a competitive fencer</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME4</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Nathan Casarsa</persName> <birth><date>10/31/2003</date> <placeName>Buffalo, NY</placeName> Computer Science &amp; Engineering, Math, ACM, Club Baseball</birth></person></listPerson><p>Has a twin brother</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME5</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-
-            <p>FUN FACT</p>
+                  <persName>Junbo, Feng</persName> <birth><date>07/12/2005</date> <placeName>Guangdong, China</placeName> Computer Science Engineering, Cycling, E-sports, frisbee</birth></person></listPerson><p>Is a music producer</p>
          </div>
          <div>
             <listPerson>
