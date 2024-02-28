@@ -42,114 +42,44 @@
          <div>
             <listPerson>
                <person>
-                  <persName>NAME6</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Abby Hausner</persName> <birth><date>10/08/2004</date> <placeName>Ridgewood, NJ</placeName> Economics, Political Science, Club Basketball</birth></person></listPerson><p>Going to Scotland in May</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME7</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Dylan Lange</persName> <birth><date>06/01/2004</date> <placeName>Indo, California</placeName> Computer Science, Volleyball, ACM, Tea Club, Sigma Alpha Epsilon</birth></person></listPerson><p>Has 15 cats</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME8</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Joshua Lee</persName> <birth><date>02/20/2004</date> <placeName>Englewood, NJ</placeName> Computer Science, Korean Cultural Association</birth></person></listPerson><p>No fun fact</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME9</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Leo McMenimen</persName> <birth><date>11/25/2003</date> <placeName>Sayerville, NJ</placeName> Computer Science, ACM, Active Minds</birth></person></listPerson><p>Has a metal rod screwed into their right arm</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME10</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Erin Wiehn</persName> <birth><date>03/09/2o05</date> <placeName>Newton, MA</placeName> </birth><affiliation>Economics, Marketing, Core Marketing, ACS</affiliation></person></listPerson><p>Left Handed</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME11</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Peyton Wynkoop</persName> <birth><date>08/21/2005</date> <placeName>Abu Dhabi, UAE</placeName> Undeclared, DSAC</birth></person></listPerson><p>No fun fact</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME12</persName>
-                  <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                  <persName>Claire Cahoon</persName> <birth><date>03/16</date> <placeName>Charlottesville, VA</placeName> English, Computer Science, Art History</birth></person></listPerson><p>Has color synesthesia and a rambunctious cat</p>
          </div>
          <div>
             <listPerson>
                <person>
-                  <persName>NAME13</persName>
+                  <persName>Diane Jakacki</persName>
                   <birth>
-                     <date>DATE</date>
-                     <placeName>PLACE</placeName>
-                  </birth>
-                  <occupation>WHAT DO I DO/WHAT IS MY MAJOR/WHAT OCCUPIES MY TIME</occupation>
-                  <affiliation>GROUP I'M A PART OF</affiliation>
-               </person>
-            </listPerson>
-            <p>FUN FACT</p>
+                     <date>DATE</date> <placeName>Englewood Cliffs</placeName> English, History, Theatre, Anthropology, Delta Gamma, CSDH, Renaissance Society of America</birth></person></listPerson><p>Ambidextrous; favorite color(s) is/are blue(s); Hates lima beans and egg salad</p>
          </div>
          <div>
             <listPerson>
