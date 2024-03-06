@@ -634,12 +634,170 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?place_annotation_20240306135112085",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T18:51:12.085Z",
+	"dcterms:modified": "2024-03-06T18:51:12.085Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/JacksonGreen27",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Jackson Green"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?place_annotation_20240306135112085#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?place_annotation_20240306135112085#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[14]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q61",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306135508649",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-06T18:55:08.649Z",
+	"dcterms:modified": "2024-03-06T18:55:08.649Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/JacksonGreen27",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Jackson Green"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306135508649#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306135508649#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q30",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
       <body>
          <head>Emancipation Proclamation</head>
          <p><date when="1863-01-01" cert="high">January 01, 1863</date>
-</p><p>By the President of the United States of America
+</p><p>By the President of the <orgName key="United States of America" ref="http://www.wikidata.org/entity/Q30">United States of America</orgName>
 </p><p>A Proclamation
 </p><p>Whereas on the <date when="1862-09-22">22d day of September, A.D. 1862</date>, a proclamation was issued by the President of the United States. containing, among other things, the following, to wit:
 </p><p>"That on the <date when="1863-01-01" cert="high">1st day of January, A.D. 1863</date>, all persons held as <desc>slaves</desc> within any State or designated part of a State the people whereof shall then be in rebellion against the United States shall be then, thenceforward, and forever free; and the executive government of the United States, including the military and naval authority thereof, will recognize and maintain the freedom of such persons and will do no act or acts to repress such persons, or any of them, in any efforts they may make for their actual freedom.
@@ -651,7 +809,7 @@
 </p><p>And I further declare and make known that such persons of suitable condition will be received into the armed service of the United States to garrison forts, positions, stations, and other places and to man vessels of all sorts in said service.
 </p><p>And upon this act, sincerely believed to be an act of justice, warranted by the <title key="United States Constitution" ref="http://www.wikidata.org/entity/Q11698">Constitution</title> upon military necessity, I invoke the considerate judgment of mankind and the gracious favor of Almighty God.
 </p><p>In witness whereof I have hereunto set my hand and caused the seal of the United States to be affixed.
-</p><p>Done at the city of Washington, this <date when="1863-01-01" cert="high">1st day of January, A.D. 1863</date>, and of the Independence of the United States of America the eighty-seventh.
+</p><p>Done at the city of <placeName key="Washington, D.C." ref="http://www.wikidata.org/entity/Q61">Washington</placeName>, this <date when="1863-01-01" cert="high">1st day of January, A.D. 1863</date>, and of the Independence of the United States of America the eighty-seventh.
 </p><p>ABRAHAM LINCOLN.
 </p><p>By the President:
 </p><p>WILLIAM H. SEWARD, Secretary of State.
