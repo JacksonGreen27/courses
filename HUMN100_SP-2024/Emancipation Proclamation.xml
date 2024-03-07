@@ -827,7 +827,6 @@
 	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306135620589",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-06T18:56:20.589Z",
-	"dcterms:modified": "2024-03-06T18:56:20.589Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JacksonGreen27",
 		"@type": [
@@ -854,7 +853,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306135620589#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/orgName"
+			"rdf:value": "TEI/text/body/p[11]/span/orgName"
 		}
 	},
 	"oa:hasBody": {
@@ -1689,7 +1688,7 @@
 </p><p>Arkansas, Texas, Louisiana (except the parishes of St. Bernard, Plaquemines, Jefferson, St. John, St. Charles, St. James, Ascension, Assumption, Terrebonne, Lafourche, St. Mary, St. Martin, and Orleans, including the city of New Orleans), Mississippi, Alabama, Florida, Georgia, South Carolina, North Carolina, and Virginia (except the forty-eight counties designated as West Virginia, and also the counties of Berkeley, Accomac, Northampton, Elizabeth City, York, Princess Anne, and Norfolk, including the cities of Norfolk and Portsmouth), and which excepted parts are for the present left precisely as if this proclamation were not issued.
 </p><p>And by virtue of the power and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States and parts of States are and henceforward shall be free, and that the <orgName key="executive branch of the U.S. government" ref="http://www.wikidata.org/entity/Q104907540">executive government of the United States</orgName>, including the <orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">military and naval authorities</orgName> thereof, will recognize and maintain the freedom of said persons.
 </p><p>And I hereby enjoin upon the people so declared to be free to abstain from all violence, unless in necessary self-defense; and I recommend to them that in all cases when allowed they labor faithfully for reasonable wages.
-</p><p>And I further declare and make known that such persons of suitable condition will be received into <orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">the armed service of the United States</orgName> to garrison forts, positions, stations, and other places and to man vessels of all sorts in said service.
+</p><p><span>And I further declare and make known that such persons of suitable condition will be received into <orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">the armed service of the United States</orgName> to garrison forts, positions, stations, and other places and to man vessels of all sorts in said service.</span>
 </p><p>And upon this act, sincerely believed to be an act of justice, warranted by the <title key="United States Constitution" ref="http://www.wikidata.org/entity/Q11698">Constitution</title> upon military necessity, I invoke the considerate judgment of mankind and the gracious favor of Almighty God.
 </p><p>In witness whereof I have hereunto set my hand and caused<objectName> the seal of the United States</objectName> to be affixed.
 </p><p>Done at the city of <placeName key="Washington, D.C." ref="http://www.wikidata.org/entity/Q61">Washington</placeName>, this <date when="1863-01-01" cert="high">1st day of January, A.D. 1863</date>, and of the Independence of the United States of America the eighty-seventh.
