@@ -1830,6 +1830,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307142728142",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-03-07T19:27:28.142Z",
+	"dcterms:modified": "2024-03-07T19:28:12.658Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/JacksonGreen27",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Jackson Green"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307142728142#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307142728142#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/p[12]/span/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "oa:TextualBody",
+		"dc:format": "text/plain",
+		"rdf:value": " "
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
   <text>
       <body>
@@ -1845,7 +1924,7 @@
 </p><p>And by virtue of the power and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States and parts of States are and henceforward shall be free, and that the <orgName key="executive branch of the U.S. government" ref="http://www.wikidata.org/entity/Q104907540">executive government of the United States</orgName>, including the <orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">military and naval authorities</orgName> thereof, will recognize and maintain the freedom of said persons.
 </p><p>And I hereby enjoin upon the people so declared to be free to abstain from all violence, unless in necessary self-defense; and I recommend to them that in all cases when allowed they labor faithfully for reasonable wages.
 </p><p><span>And I further declare and make known that such persons of suitable condition will be received into<note type="annotation">Abraham Lincoln had a lot of motivation to free the slaves to help fight the Confederate army as this outlines</note> <orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">the armed service of the United States</orgName> to garrison forts, positions, stations, and other places and to man vessels of all sorts in said service.</span>
-</p><p><span>And upon this act, sincerely believed to be an act of justice, warranted by the <title key="United States Constitution" ref="http://www.wikidata.org/entity/Q11698">Constitution</title> upon military necessity, I invoke the considerate judgment of mankind and the gracious favor of Almighty God.</span>
+</p><p><span>And upon this act, sincerely believed to be an act of justice, warranted by the <title key="United States Constitution" ref="http://www.wikidata.org/entity/Q11698">Constitution</title> upon military necessity,<note type="annotation"> </note>I invoke the considerate judgment of mankind and the gracious favor of Almighty God.</span>
 </p><p>In witness whereof I have hereunto set my hand and caused<objectName> the seal of the United States</objectName> to be affixed.
 </p><p>Done at the city of <placeName key="Washington, D.C." ref="http://www.wikidata.org/entity/Q61">Washington</placeName>, this <date when="1863-01-01" cert="high">1st day of January, A.D. 1863</date>, and of the Independence of the United States of America the eighty-seventh.
 </p><p><persName key="Abraham Lincoln" ref="http://www.wikidata.org/entity/Q91" cert="high" type="real">ABRAHAM LINCOLN</persName>.
