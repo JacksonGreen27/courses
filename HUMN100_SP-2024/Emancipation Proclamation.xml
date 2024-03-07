@@ -1616,10 +1616,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?person_annotation_20240306144653119",
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306223337592",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-06T19:46:53.119Z",
-	"dcterms:modified": "2024-03-06T19:46:53.119Z",
+	"dcterms:created": "2024-03-07T03:33:37.592Z",
+	"dcterms:modified": "2024-03-07T03:33:37.592Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JacksonGreen27",
 		"@type": [
@@ -1630,7 +1630,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?person_annotation_20240306144653119#Target",
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306223337592#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
@@ -1644,13 +1644,26 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?person_annotation_20240306144653119#Selector",
-			"@type": "oa:XPathSelector"
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?organization_annotation_20240306223337592#Selector",
+			"@type": "oa:RangeSelector",
+			"oa:hasStartSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/p[5]"
+			},
+			"oa:hasEndSelector": {
+				"@type": "oa:XPathSelector",
+				"rdf:value": "TEI/text/body/p[5]/desc"
+			},
+			"oa:refinedBy": {
+				"@type": "oa:TextPositionSelector",
+				"oa:start": 48,
+				"oa:end": 6
+			}
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://www.wikidata.org/entity/Q14213",
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q118382",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -1659,8 +1672,7 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
+	}
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
