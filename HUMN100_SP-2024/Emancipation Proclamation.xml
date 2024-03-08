@@ -123,6 +123,7 @@
 	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?date_annotation_20240306094958215",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-03-06T14:49:58.215Z",
+	"dcterms:modified": "2024-03-06T14:49:58.215Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JacksonGreen27",
 		"@type": [
@@ -149,7 +150,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?date_annotation_20240306094958215#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[4]/date"
+			"rdf:value": "TEI/text/body/p[4]/span/date"
 		}
 	},
 	"oa:hasBody": {
@@ -1705,10 +1706,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240306225019066",
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154245876",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-07T03:50:19.066Z",
-	"dcterms:modified": "2024-03-07T03:50:19.066Z",
+	"dcterms:created": "2024-03-07T20:42:45.876Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JacksonGreen27",
 		"@type": [
@@ -1719,7 +1719,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240306225019066#Target",
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154245876#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
@@ -1733,86 +1733,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240306225019066#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/p[11]/span/note"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "oa:TextualBody",
-		"dc:format": "text/plain",
-		"rdf:value": "Abraham Lincoln had a lot of motivation to free the slaves to help fight the Confederate army as this outlines"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "3.4.0"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154228940",
-	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-07T20:42:28.940Z",
-	"dcterms:modified": "2024-03-07T20:42:45.876Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/JacksonGreen27",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Jackson Green"
-	},
-	"oa:motivatedBy": "oa:describing",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154228940#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "3.4.0"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154228940#Selector",
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154245876#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[12]/span/note"
 		}
@@ -1863,10 +1784,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154921859",
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154926548",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-07T20:49:21.859Z",
-	"dcterms:modified": "2024-03-07T20:49:26.548Z",
+	"dcterms:created": "2024-03-07T20:49:26.548Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JacksonGreen27",
 		"@type": [
@@ -1877,7 +1797,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154921859#Target",
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154926548#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
@@ -1891,7 +1811,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154921859#Selector",
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307154926548#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[11]/note"
 		}
@@ -1942,10 +1862,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307155347862",
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307155352351",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-07T20:53:47.862Z",
-	"dcterms:modified": "2024-03-07T20:53:52.351Z",
+	"dcterms:created": "2024-03-07T20:53:52.351Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JacksonGreen27",
 		"@type": [
@@ -1956,7 +1875,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307155347862#Target",
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307155352351#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
@@ -1970,7 +1889,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307155347862#Selector",
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307155352351#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[10]/span/span/note"
 		}
@@ -2021,10 +1940,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307160327202",
+	"id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307160331822",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-03-07T21:03:27.202Z",
-	"dcterms:modified": "2024-03-07T21:03:31.822Z",
+	"dcterms:created": "2024-03-07T21:03:31.822Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/JacksonGreen27",
 		"@type": [
@@ -2035,7 +1953,7 @@
 	},
 	"oa:motivatedBy": "oa:describing",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307160327202#Target",
+		"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307160331822#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml",
@@ -2049,7 +1967,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307160327202#Selector",
+			"@id": "https://raw.githubusercontent.com/JacksonGreen27/courses/main/HUMN100_SP-2024/Emancipation%20Proclamation.xml?note_annotation_20240307160331822#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/p[8]/span/note"
 		}
@@ -2075,8 +1993,9 @@
          <p><date when="1863-01-01" cert="high">January 01, 1863</date>
 </p><p>By the President of the <orgName key="United States of America" ref="http://www.wikidata.org/entity/Q30">United States of America</orgName>
 </p><p>A Proclamation
-</p><p>Whereas on the <date when="1862-09-22">22d day of September, A.D. 1862</date>, a proclamation was issued by the President of the United States. containing, among other things, the following, to wit:
-</p><p>"That on the <date when="1863-01-01" cert="high">1st day of January, A.D. 1863</date>, all persons held as <desc>slaves</desc> within any State or designated part of a State the people whereof shall then be in rebellion against the United States shall be then, thenceforward, and forever free; and the executive government of the United States, including the military and naval authority thereof, will recognize and maintain the freedom of such persons and will do no act or acts to repress such persons, or any of them, in any efforts they may make for their actual freedom. </p><p>"That the Executive will on the <date when="1863-01-01" cert="high">1st day of January</date> aforesaid, by proclamation, designate the States and parts of States, if any, in which the people thereof, respectively, shall then be in rebellion against the United States; and the fact that any State or the people thereof shall on that day be in good faith represented in <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" cert="high">the Congress of the United States</orgName> by members chosen thereto at elections wherein a majority of the qualified voters of such States shall have participated shall, in the absence of strong countervailing testimony, be deemed conclusive evidence that such State and the people thereof are not then in rebellion against the United States."
+</p><p><span>Whereas on the
+<date when="1862-09-22">22d day of September, A.D. 1862</date>
+, a proclamation was issued by the President of the United States. containing, among other things, the following, to wit: <note> </note></span></p><p>"That on the <date when="1863-01-01" cert="high">1st day of January, A.D. 1863</date>, all persons held as <desc>slaves</desc> within any State or designated part of a State the people whereof shall then be in rebellion against the United States shall be then, thenceforward, and forever free; and the executive government of the United States, including the military and naval authority thereof, will recognize and maintain the freedom of such persons and will do no act or acts to repress such persons, or any of them, in any efforts they may make for their actual freedom. </p><p>"That the Executive will on the <date when="1863-01-01" cert="high">1st day of January</date> aforesaid, by proclamation, designate the States and parts of States, if any, in which the people thereof, respectively, shall then be in rebellion against the United States; and the fact that any State or the people thereof shall on that day be in good faith represented in <orgName key="United States Congress" ref="http://www.wikidata.org/entity/Q11268" cert="high">the Congress of the United States</orgName> by members chosen thereto at elections wherein a majority of the qualified voters of such States shall have participated shall, in the absence of strong countervailing testimony, be deemed conclusive evidence that such State and the people thereof are not then in rebellion against the United States."
 </p><p>Now, therefore, I, <persName key="Abraham Lincoln" ref="http://www.wikidata.org/entity/Q91" cert="high" type="real">Abraham Lincoln</persName>, <persName key="President of the United States" ref="http://www.wikidata.org/entity/Q11696">President of the United States</persName>, by virtue of the power in me vested as Commander in Chief of <orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">the Army and Navy of the United States</orgName> in time of actual armed rebellion against the authority and <orgName key="Federal Government of the United States" ref="http://www.wikidata.org/entity/Q48525" cert="high">Government of the United States</orgName>, and as a fit and necessary war measure for suppressing said rebellion, do, on this <date when="1863-01-01">1st day of January, A.D. 1863</date>, and in accordance with my purpose so to do, publicly proclaimed for the full period of one hundred days from the day first above mentioned, order and designate as the States and parts of States wherein the people thereof, respectively, are this day in rebellion against the <orgName key="United States of America" ref="http://www.wikidata.org/entity/Q30">United States</orgName> the following, to wit:
 </p><p><span>Arkansas, Texas, Louisiana (except the parishes of St. Bernard, Plaquemines, Jefferson, St. John, St. Charles, St. James, Ascension, Assumption, Terrebonne, Lafourche, St. Mary, St. Martin, and Orleans, including the city of New Orleans), Mississippi, Alabama, Florida, Georgia, South Carolina, North Carolina, and Virginia (except the forty-eight counties designated as West Virginia, and also the counties of Berkeley, Accomac, Northampton, Elizabeth City, York, Princess Anne, and Norfolk, including the cities of Norfolk and Portsmouth), and which excepted parts are for the present left precisely as if this proclamation were not issued.<note type="annotation"> All of the states and cities mentioned </note></span></p><p>And by virtue of the power and for the purpose aforesaid, I do order and declare that all persons held as slaves within said designated States and parts of States are and henceforward shall be free, and that the <orgName key="executive branch of the U.S. government" ref="http://www.wikidata.org/entity/Q104907540">executive government of the United States</orgName>, including the <orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">military and naval authorities</orgName> thereof, will recognize and maintain the freedom of said persons.
 </p><p><span><span>And I hereby enjoin upon the people so declared to be free to abstain from all violence, unless in necessary self-defense; and I recommend to them that in all cases when allowed they labor faithfully for reasonable wages.       <note type="annotation"> Lincoln shows that he may be worried about freed slaves turning violent to get revenge on the people who enslaved them. He also says that he recommends they "in all cases" labor faithfully for reasonable wages which shows his focus on making sure freed slaves are productive members of society. His statement of "reasonable wages" though, allows for some negative interpretations since "reasonable" could mean not enough to live off of since before this proclamation they were forced to work without pay. </note></span></span></p><p><span>And I further declare and make known that such persons of suitable condition will be received into<orgName key="United States Armed Forces" ref="http://www.wikidata.org/entity/Q11211">the armed service of the United States</orgName> to garrison forts, positions, stations, and other places and to man vessels of all sorts in said service.</span><note type="annotation">Lincoln made a point in this proclamation to ensure all freed slaves knew they could fight with the Union army.</note></p><p><span>And upon this act, sincerely believed to be an act of justice, warranted by the <title key="United States Constitution" ref="http://www.wikidata.org/entity/Q11698">Constitution</title> upon military necessity, I invoke the considerate judgment of mankind and the gracious favor of Almighty God.<note type="annotation">.Lincoln had made it clear to the Confederates that if slaves were not freed by 1863, he would make a proclamation freeing slaves. In Lincoln's mind, if he did not free the slaves, the Confederate army might make them fight against the northern states so in an effort to make his own military more powerful he freed the slaves and explicitly states in this proclamation that they will be welcomed into the military by necessity to win the Civil War.  </note></span></p><p>In witness whereof I have hereunto set my hand and caused<objectName> the seal of the United States</objectName> to be affixed.
